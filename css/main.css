@@ -84,8 +84,106 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Amira's custom styles
    ========================================================================== */
+
+   html {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+   }
+
+   body {
+    font-family: 'GFS Didot', serif;
+    font-size: 1em;
+    /* text-align: center; */
+    width: 100%;
+    height: auto;
+    background-color: #be8fe9;
+   }
+   h1 {
+    float: left;
+    padding-left: 10%;
+    font-size: 1.25em;
+    font-style: italic;
+    font-family: "Playfair Display", serif;
+
+   }
+
+   ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.25em;
+}
+
+ li a:hover {
+  background-color: rgb(129, 33, 173);
+  opacity: .8;
+ }
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+  .content-wrapper {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+  }
+  .content-wrapper img {
+    width: 100%
+  }
+
+  .text-wrapper {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    line-height: .75em;
+    opacity: .8;
+    margin: 0;
+  }
+  .text-wrapper h2 {
+    text-align: center;
+    color: black;
+    font-size: 3em;
+    /* text-shadow: 0 0 10px black; */
+    font-style: italic
+  }
+  .text-wrapper h3 {
+    text-align: center;
+    color: black;
+    /* text-shadow: 0 0 10px white; */
+
+  }
+  footer span {
+    font-family: 'Great Vibes', cursive;
+  }
+
 
 /* ==========================================================================
    Helper classes

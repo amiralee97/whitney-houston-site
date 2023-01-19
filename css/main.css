@@ -107,7 +107,6 @@ textarea {
     font-size: 1.25em;
     font-style: italic;
     font-family: "Playfair Display", serif;
-
    }
 
    ul {
@@ -172,14 +171,60 @@ nav {
     color: black;
     font-size: 3em;
     /* text-shadow: 0 0 10px black; */
-    font-style: italic
+    font-style: italic;
+    font-family: "Playfair Display", serif;
   }
   .text-wrapper h3 {
     text-align: center;
     color: black;
     /* text-shadow: 0 0 10px white; */
-
   }
+
+  .middle-section {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+  }
+  .two-column {
+    flex: 50%;
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clear: both;
+    height: auto;
+  }
+
+  /**** try to get images from spilling out of parent container ******/
+  .middle-section img {
+    object-fit: contain;
+    object-position: center;
+  }
+
+  .middle-section {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .text-block {
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    line-height: .75em;
+    opacity: .8;
+    margin: 0;
+  }
+
+  
   footer span {
     font-family: 'Great Vibes', cursive;
   }

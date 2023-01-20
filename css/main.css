@@ -96,7 +96,6 @@ textarea {
    body {
     font-family: 'GFS Didot', serif;
     font-size: 1em;
-    /* text-align: center; */
     width: 100%;
     height: auto;
     background-color: #be8fe9;
@@ -104,7 +103,7 @@ textarea {
    h1 {
     float: left;
     padding-left: 10%;
-    font-size: 1.25em;
+    font-size: 2.5vw;
     font-style: italic;
     font-family: "Playfair Display", serif;
    }
@@ -118,6 +117,7 @@ textarea {
 
 nav li {
   float: left;
+  font-size: 1.5vw;
 }
 
 li a {
@@ -162,27 +162,23 @@ nav {
     left: 50%;
     transform: translate(-50%, -50%);
     background: white;
-    line-height: .75em;
+    line-height: 1vw;
     opacity: .8;
     margin: 0;
   }
   .text-wrapper h2 {
     text-align: center;
     color: black;
-    font-size: 3em;
-    /* text-shadow: 0 0 10px black; */
+    font-size: 6vw;
     font-style: italic;
     font-family: "Playfair Display", serif;
   }
   .text-wrapper h3 {
     text-align: center;
     color: black;
-    /* text-shadow: 0 0 10px white; */
+    font-size: 2.25vw;
   }
 
-  marquee {
-    border: 1px solid white;
-  }
 
 /********************* middle section *************************/
 
@@ -201,22 +197,11 @@ nav {
     position: relative;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     clear: both;
-    height: auto;
+    padding: 10px;
   }
 
-  /**** try to get images from spilling out of parent container ******/
-  .middle-section img {
-    object-fit: contain;
-    object-position: center;
-  }
-
-  .middle-section {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-  }
 
   .text-block {
     width: 75%;
@@ -224,11 +209,23 @@ nav {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background: white;
-    line-height: .75em;
+    background: rgb(188, 130, 205);
     opacity: .8;
     margin: 0;
   }
+
+  .text-block p {
+    font-size: 1.75vw;
+    line-height: 2vw;
+    overflow: scroll;
+    padding: 5px 15px 10px 15px;
+    color: black;
+  }
+
+  .text-block p span {
+    font-style: italic;
+  }
+
   /**************** bottom section ***********************/
   .three-column {
     width: 80%;
@@ -238,18 +235,60 @@ nav {
     align-items: center;
     justify-content: center;
     clear: both;
+    overflow: hidden;
   }
 
   .three-column img {
     width: 33%;
     margin: 0 auto;
+    display: flex; 
+    justify-content: space-around;
+    padding: 10px;
+    
   }
+  
+  .bottom-section {
+    color: white;
+    text-align: center;
+  }
+
+  .bottom-section ul {
+    text-decoration: none;
+    list-style-type:disc;
+  }
+  
+  .bottom-section h3 {
+    font-size: 2vw;
+    font-style: italic;
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+    font-size: 1.4vw;
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  /* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 
    /************* footer ****************/
   
+   footer {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+   }
   footer span {
     font-family: 'Great Vibes', cursive;
+    color:rgb(129, 33, 173);
   }
 
 
@@ -350,6 +389,13 @@ nav {
   (min-resolution: 1.25dppx),
   (min-resolution: 120dpi) {
   /* Style adjustments for high resolution devices */
+  }
+
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  } 
 }
 
 /* ==========================================================================

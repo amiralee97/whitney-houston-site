@@ -113,6 +113,7 @@ textarea {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  float: left;
 }
 
 nav li {
@@ -349,7 +350,18 @@ background-color: rgba(0, 0, 0, .1);
   right: 1rem;
 }
 
+/****************** music page style *******************/
 
+.streamers {
+margin: 8%;
+display: flex;
+justify-content: center;
+align-items: center;
+align-content: space-around;
+flex-wrap: wrap;
+clear: both;
+  
+}
    /************* footer ****************/
   
    footer {

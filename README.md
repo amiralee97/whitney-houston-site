@@ -4,12 +4,12 @@ Welcome to my Whitney Houston fan site! This is a static website dedicated to th
 
 ## **Table of Contents**
 
-- **[Introduction](https://chat.openai.com/chat#introduction)**
-- **[Technologies Used](https://chat.openai.com/chat#technologies-used)**
-- **[Features](https://chat.openai.com/chat#features)**
-- **[Setup and Usage](https://chat.openai.com/chat#setup-and-usage)**
-- **[Contributing](https://chat.openai.com/chat#contributing)**
-- **[License](https://chat.openai.com/chat#license)**
+- **[Introduction]**
+- **[Technologies Used]**
+- **[Features]**
+- **[Setup and Usage]**
+- **[Contributing]**
+
 
 ## **Introduction**
 
@@ -41,6 +41,3 @@ To view this website, simply visit the following URL: **[https://amiralee97.gith
 
 Contributions to this website are welcome! If you would like to contribute, please fork this repository and submit a pull request with your changes.
 
-## **License**
-
-This website is licensed under the MIT License. See the **[LICENSE](https://github.com/amiralee97/whitney-houston-site/blob/main/LICENSE)** file for more information.

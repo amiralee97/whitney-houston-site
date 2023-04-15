@@ -4,11 +4,11 @@ Welcome to my Whitney Houston fan site! This is a static website dedicated to th
 
 ## **Table of Contents**
 
-- ## **Introduction**
-- ## **Technologies Used**
-- ## **Features**
-- ## **Setup and Usage**
-- ## **Contributing**
+-  **Introduction**
+-  **Technologies Used**
+-  **Features**
+-  **Setup and Usage**
+-  **Contributing**
 
 
 ## **Introduction**

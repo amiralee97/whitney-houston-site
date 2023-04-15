@@ -270,6 +270,7 @@ nav {
     display: flex;
     justify-content: space-around;
   }
+ 
 
   /* Clear floats after the columns */
 .row:after {
